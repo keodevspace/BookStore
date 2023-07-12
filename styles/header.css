@@ -21,18 +21,18 @@
 }
 
 .container__imagem {
-    padding: 1em; /* espaco itens do menu */
+    padding: 1em;
 }
 
 .lista-menu {
-    display: none; /* oculta a lista */
-    position: absolute; /* relative (blrt), absolute (diferente de estatico)*/
+    display: none;
+    position: absolute;
     top: 100%;
-    width: 60vw; /* 60% do viewport */
+    width: 60vw;
 }
 
 .container__botao:checked~.lista-menu {
-    display: block; /* a lista aparece quando clicar*/
+    display: block;
 }
 
 .lista-menu__titulo,
